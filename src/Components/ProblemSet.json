@@ -1,0 +1,83 @@
+
+{
+    "Array":[
+    {
+        "id":0,
+        "P_No":0,
+        "problemName": "Two Sum",
+        "problemStatement": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.\nYou                             may assume that each input would have exactly one solution, and you may not use the same element twice.\nYou can return the                                answer in any order.\n",
+        "constraints": "* 2 <= nums.length <= 10^4\n* -10^9 <= nums[i] <= 10^9\n* -10^9 <= target <= 10^9\n* Only one valid answer exists.\n",
+        "sampleInput": "4\n2 7 11 15\n9\n",
+        "sampleOutput": "0 1\n",
+        "testCases": [
+            {   
+                "input": "3\n3 2 4\n6\n",
+                "output": "1 2\n"
+            },
+            {   
+                "input": "2\n3 3\n6\n",
+                "output": "0 1\n"
+            }
+        ]
+    },
+    {
+        "id":1,
+        "P_No":1,
+        "problemName": "Print Sum",
+        "problemStatement": "Given an array of integers nums, return the sum of the elements of the array nums.\n",
+        "constraints": "* 0 <= nums.length <= 10^4\n* -10^9 <= nums[i] <= 10^9\n",
+        "sampleInput": "4\n2 7 11 15\n",
+        "sampleOutput": "35\n",
+        "testCases": [
+            {   
+                "input": "3\n3 2 4\n",
+                "output": "9\n"
+            },
+            {   
+                "input": "2\n1000000 1000000\n",
+                "output": "2000000\n"
+            }
+        ]
+    }
+],
+"LinkedList":[
+    {
+        "id":2,
+        "P_No":0,
+        "problemName": "Find Middle",
+        "problemStatement": "Given a Linked List, return the middle element of the Linked List\n",
+        "constraints": "* 1 <= List.length <= 10^4\n* 0 <= List[i].data <= 10^9\n* List.length is Odd",
+        "sampleInput": "5\n2 7 11 15 16\n",
+        "sampleOutput": "11\n",
+        "testCases": [
+            {   
+                "input": "3\n3 2 4\n",
+                "output": "2\n"
+            },
+            {   
+                "input": "1\n3\n",
+                "output": "3\n"
+            }
+        ]
+    },
+    {
+        "id":3,
+        "P_No":1,
+        "problemName": "Sort Linked List",
+        "problemStatement": "Given a linked list, sort the nodes of the linked list\n",
+        "constraints": "* 0 <= List.length <= 10^4\n* 0 <= List[i].data <= 10^9\n",
+        "sampleInput": "4\n2 7 11 15\n",
+        "sampleOutput": "2 7 11 15\n",
+        "testCases": [
+            {   
+                "input": "3\n3 2 4\n",
+                "output": "2 3 4\n"
+            },
+            {   
+                "input": "2\n2 1\n",
+                "output": "1 2\n"
+            }
+        ]
+    }
+]
+}
